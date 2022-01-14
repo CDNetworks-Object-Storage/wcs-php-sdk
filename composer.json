@@ -1,0 +1,19 @@
+{
+    "name": "wangsucs/wcs-sdk-php",
+    "description": "wcs sdk for php",
+    "keywords": ["wcs", "storage", "sdk", "php", "cloud"],
+    "homepage": "https://wcs.chinanetcenter.com/document/Guide",
+    "authors": [
+        {
+            "name": "wcs",
+            "email": "CLOUD_STOR_PUB@chinanetcenter.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "jkuchar/bigfiletools": "1.1.3"
+    },
+    "autoload": {
+        "psr-4": {"Wcs\\": "src/Wcs"}
+    }
+}
